@@ -1,0 +1,23 @@
+*{
+box-sizing:border box;
+}
+body
+{
+    margin:0px;
+    font-family: "Roboto""sans-serif";
+}
+header{
+    padding: 1rem;
+    z-index:1000;
+    display: block;
+    box-shadow: rgb(178, 178, 175) 0 0 5px 0;
+}
+.header__logo
+{
+    font-family:"Shrikhand";
+    margin: 0;
+    text-align: center;
+}
+
+
+

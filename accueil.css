@@ -1,0 +1,24 @@
+* {
+  -webkit-box-sizing: border box;
+          box-sizing: border box;
+}
+
+body {
+  margin: 0px;
+  font-family: "Roboto" "sans-serif";
+}
+
+header {
+  padding: 1rem;
+  z-index: 1000;
+  display: block;
+  -webkit-box-shadow: #b2b2af 0 0 5px 0;
+          box-shadow: #b2b2af 0 0 5px 0;
+}
+
+.header__logo {
+  font-family: "Shrikhand";
+  margin: 0;
+  text-align: center;
+}
+/*# sourceMappingURL=accueil.css.map */
