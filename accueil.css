@@ -10,7 +10,6 @@ body {
 
 header {
   padding: 1rem;
-  z-index: 1000;
   display: block;
   -webkit-box-shadow: 5px 15px 5px #f5eeee;
           box-shadow: 5px 15px 5px #f5eeee;
@@ -103,6 +102,8 @@ p {
 
 .intro__btn:hover {
   opacity: 0.85;
+  -webkit-box-shadow: 0.4rem 0.4rem 0.4rem 0.4rem #eae6e6;
+          box-shadow: 0.4rem 0.4rem 0.4rem 0.4rem #eae6e6;
 }
 
 .tuto {
@@ -323,5 +324,76 @@ h3 {
 
 .card__subtitle {
   margin: 0;
+}
+
+/*heart left*/
+/*heart left*/
+footer {
+  display: block;
+}
+
+.footer {
+  background-color: #353535;
+}
+
+.footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+}
+
+.footer__logo {
+  color: #fff;
+  font-family: Shrikhand,"cursive";
+  font-size: 1.2rem;
+  margin: 0 0 1rem;
+}
+
+.footer__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  display: block;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+  -webkit-padding-start: 40px;
+          padding-inline-start: 40px;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.footer__list__content {
+  margin: 0.5rem;
+}
+
+.footer__list__content:first-child {
+  margin-top: 0;
+}
+
+.footer__link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__icon {
+  width: 1.2rem;
+  margin-right: 0.5rem;
 }
 /*# sourceMappingURL=accueil.css.map */
