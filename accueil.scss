@@ -59,8 +59,7 @@ body
 }
 header{
     padding: 1rem;
-    display: block;
-    box-shadow:3px 3px 3px $shadow-color;}
+    display: block;}
 .header__logo{
     font-family:"Shrikhand";
     margin: 0;
@@ -248,8 +247,7 @@ h3 {
 .card__subtitle {
     margin: 0;}
                     /*heart left*/
-
-
+                    
 
 
 
@@ -456,7 +454,9 @@ li {
     cursor: pointer;
     transition-duration: 0.25s;
     box-shadow:0.25rem 0.25rem 0.25rem 0.15rem rgb(234, 230, 230) ;}
-
+.orderBtn__Btn:hover{
+    opacity:0.85;
+    box-shadow: 0.4rem 0.4rem 0.4rem 0.4rem rgb(234, 230, 230);}
 
 
 
