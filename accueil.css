@@ -1,6 +1,6 @@
 * {
-  -webkit-box-sizing: border box;
-          box-sizing: border box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -124,8 +124,6 @@ body {
 header {
   padding: 1rem;
   display: block;
-  -webkit-box-shadow: 3px 3px 3px #f5eeee;
-          box-shadow: 3px 3px 3px #f5eeee;
 }
 
 .header__logo {
@@ -806,5 +804,11 @@ li {
           transition-duration: 0.25s;
   -webkit-box-shadow: 0.25rem 0.25rem 0.25rem 0.15rem #eae6e6;
           box-shadow: 0.25rem 0.25rem 0.25rem 0.15rem #eae6e6;
+}
+
+.orderBtn__Btn:hover {
+  opacity: 0.85;
+  -webkit-box-shadow: 0.4rem 0.4rem 0.4rem 0.4rem #eae6e6;
+          box-shadow: 0.4rem 0.4rem 0.4rem 0.4rem #eae6e6;
 }
 /*# sourceMappingURL=accueil.css.map */
