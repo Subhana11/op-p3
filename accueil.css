@@ -467,6 +467,8 @@ h3 {
 
 .menu__like--bg:hover {
   opacity: 1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 footer {
