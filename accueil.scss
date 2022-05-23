@@ -474,5 +474,24 @@ li {
     opacity:0.85;
     box-shadow: 0.4rem 0.4rem 0.4rem 0.4rem rgb(234, 230, 230);}
 
+@media screen and (min-width:1280px)
+{
+    ol{
+        display:flex;
+        justify-content:space-around;
+    } 
+    .cards{
+        flex-direction: row;
+        flex-wrap:nowrap;
+        width:100%;
+    }  
+    .card{
+        width:100%;
+    }
+    .submenus{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
 
 

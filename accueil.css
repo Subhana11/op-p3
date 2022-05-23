@@ -839,4 +839,34 @@ li {
   -webkit-box-shadow: 0.4rem 0.4rem 0.4rem 0.4rem #eae6e6;
           box-shadow: 0.4rem 0.4rem 0.4rem 0.4rem #eae6e6;
 }
+
+@media screen and (min-width: 1280px) {
+  ol {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .cards {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+  .submenus {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
 /*# sourceMappingURL=accueil.css.map */
