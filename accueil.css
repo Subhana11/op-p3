@@ -868,5 +868,8 @@ li {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
+  .menuItem {
+    width: 30rem;
+  }
 }
 /*# sourceMappingURL=accueil.css.map */
