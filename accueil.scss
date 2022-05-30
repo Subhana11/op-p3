@@ -375,7 +375,6 @@ li {
     transform: scale(0);
     transform-origin: top;
     max-width: 100%;
-    transition-duration: 16s; 
 }
 @keyframes itemAppear {
     0% { 
@@ -401,7 +400,7 @@ li {
     animation-delay:0.8s
 } 
 .delay-5{
-    animation-delay:0.10s
+    animation-delay:0.8s
 } 
 .delay-6{
     animation-delay:0.12s

@@ -652,8 +652,6 @@ li {
   -webkit-transform-origin: top;
           transform-origin: top;
   max-width: 100%;
-  -webkit-transition-duration: 16s;
-          transition-duration: 16s;
 }
 
 @-webkit-keyframes itemAppear {
@@ -704,8 +702,8 @@ li {
 }
 
 .delay-5 {
-  -webkit-animation-delay: 0.10s;
-          animation-delay: 0.10s;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
 }
 
 .delay-6 {
